@@ -1,0 +1,23 @@
+{
+  "training_params" : {
+      "learning_rate": 5e-5,
+      "batch_size": 1,
+      "make_patches": false,
+      "training_margin" : 0,
+      "n_epochs": 300,
+      "data_augmentation" : true,
+      "data_augmentation_max_rotation" : 0.2,
+      "data_augmentation_max_scaling" : 0.2,
+      "data_augmentation_flip_lr": true,
+      "data_augmentation_flip_ud": true,
+      "data_augmentation_color": true,
+      "evaluate_every_epoch" : 4
+  },
+  "pretrained_model_name" : "resnet50",
+  "prediction_type": "CLASSIFICATION",
+  "train_data" : "dataset/ENP_500/train/",
+  "eval_data" : "dataset/ENP_500/val",
+  "classes_file" : "dataset/ENP_500/classes.txt",
+  "model_output_dir" : "dataset/ENP_500_model_v3",
+  "gpu" : "3"
+}
