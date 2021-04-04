@@ -5,7 +5,7 @@ import numpy as np
 from scipy import ndimage as ndi
 from collections import OrderedDict
 from skimage.exposure import histogram
-from skimage._shared.utils import assert_nD, warn, deprecated
+from skimage._shared.utils import check_nD, warn, deprecated
 from skimage.transform import integral_image
 from skimage.util import crop, dtype_limits
 
