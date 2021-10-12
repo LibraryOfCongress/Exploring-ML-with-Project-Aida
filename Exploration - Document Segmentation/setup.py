@@ -20,7 +20,7 @@ setup(name='dh_segment',
         'shapely==1.6.4',
         'scikit-learn==0.20.3',
         'scikit-image==0.15.0',
-        'opencv-python==4.0.1.23',
+        'opencv-python==4.2.0.32',
         'tqdm==4.31.1',
         'sacred==0.7.4',
         'requests==2.21.0'
