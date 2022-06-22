@@ -8,7 +8,7 @@ setup(name='project4',
       install_requires=[
         'tensorflow-gpu',
         'opencv-python>=4.0.1',
-        'numpy==1.16.2',
+        'numpy==1.22.0',
         'scikit-learn==0.20.3',
         'scikit-image==0.15.0',
         'pandas==0.24.2',
