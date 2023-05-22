@@ -23,7 +23,7 @@ setup(name='dh_segment',
         'opencv-python==4.0.1.23',
         'tqdm==4.31.1',
         'sacred==0.7.4',
-        'requests==2.21.0'
+        'requests==2.31.0'
       ],
       extras_require={
           'doc': [
