@@ -12,18 +12,18 @@ setup(name='dh_segment',
           'Source Code': 'https://github.com/dhlab-epfl/dhSegment'
       },
       install_requires=[
-        'tensorflow-gpu==1.13.1',
-        'numpy==1.16.2',
+        'tensorflow-gpu==2.12.0',
+        'numpy==1.22.0',
         'imageio==2.5.0',
         'pandas==0.24.2',
         'scipy==1.2.1',
         'shapely==1.6.4',
-        'scikit-learn==0.20.3',
+        'scikit-learn==1.5.0',
         'scikit-image==0.15.0',
-        'opencv-python==4.0.1.23',
-        'tqdm==4.31.1',
+        'opencv-python==4.2.0.32',
+        'tqdm==4.66.3',
         'sacred==0.7.4',
-        'requests==2.21.0'
+        'requests==2.32.2'
       ],
       extras_require={
           'doc': [
