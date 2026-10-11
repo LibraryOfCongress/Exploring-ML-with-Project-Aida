@@ -294,7 +294,7 @@ class ConfusMatMultilb(mx.metric.EvalMetric):
 
 def IoU(pred, label, nb_cls, eps):
     # input must be numpy array
-    # pred must has been argmax-ed
+    # pred must have been argmax-ed
     ious = []
     for cls in range(nb_cls):
         # pick out class labels and predictions
